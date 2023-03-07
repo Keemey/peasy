@@ -1,2 +1,2 @@
 # peasy
-A webpage displayed using HTML and django.
+A webpage displayed using HTML template and django.
