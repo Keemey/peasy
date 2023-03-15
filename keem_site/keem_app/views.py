@@ -9,8 +9,8 @@ def example_view(request):
 
 def variable_view(request):
 
-    my_var = {'first_name': 'Ayomide',
-              'last_name': 'Adeniyi',
+    my_var = {'first_name': 'AYOMIDE',
+              'last_name': 'adeniyi',
               'some_list': [1,2,3],
               'some_dict': {'inside_key': 'inside_value'}
               }

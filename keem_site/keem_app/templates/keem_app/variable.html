@@ -8,7 +8,7 @@
 </head>
 <body style="background-color: powderblue">
 <h1>VARIABE.HTML</h1>
-<h2>My Names are {{first_name}} {{last_name}}!</h2>
+<h2>My Names are {{first_name | lower | capfirst }} {{last_name | lower | capfirst}}!</h2>
 <h2>{{some_list.0}}, {{some_list.1}}, {{some_list.2}}</h2>
 <h2>{{some_dict.inside_key}}</h2>
 <!--h2>this is a comment</h2-->
